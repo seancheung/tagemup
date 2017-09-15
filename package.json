@@ -1,0 +1,32 @@
+{
+  "name": "tagemup",
+  "version": "1.0.0",
+  "description": "Tagged caching which supports various drivers",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/seancheung/tagemup.git"
+  },
+  "keywords": [
+    "cache",
+    "redis",
+    "memcached",
+    "tag",
+    "memory"
+  ],
+  "author": "Sean Cheung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seancheung/tagemup/issues"
+  },
+  "homepage": "https://github.com/seancheung/tagemup#readme",
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "memcached": "^2.2.2",
+    "msgpack5": "^3.5.1",
+    "redis": "^2.8.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0"
+  }
+}
